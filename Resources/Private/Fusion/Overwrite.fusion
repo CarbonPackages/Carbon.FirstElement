@@ -1,0 +1,7 @@
+prototype(Neos.Neos:Content) {
+    isFirstElement = Carbon.FirstElement:Mixin
+}
+
+prototype(Neos.Neos:ContentComponent) {
+    isFirstElement = Carbon.FirstElement:Mixin
+}

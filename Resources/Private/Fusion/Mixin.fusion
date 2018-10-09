@@ -1,0 +1,10 @@
+prototype(Carbon.FirstElement:Mixin) < prototype(Neos.Fusion:Component) {
+    contentCollection = '[instanceof Neos.Neos:ContentCollection]'
+    documentNode = ${documentNode}
+    node = ${node}
+
+    renderer = Neos.Fusion:Value {
+        firstContentNode = ${q(props.documentNode).children(props.contentCollection).children('[instanceof Carbon.FirstElement:Mixin]').get(0)}
+        value = ${this.firstContentNode == props.node ? true : false}
+    }
+}

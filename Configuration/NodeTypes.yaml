@@ -1,0 +1,7 @@
+##
+# Content nodes with this super type get the property `isFirstElement` automatic calculated
+#
+##
+
+'Carbon.FirstElement:Mixin':
+  abstract: true
