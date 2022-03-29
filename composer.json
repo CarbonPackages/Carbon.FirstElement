@@ -2,7 +2,7 @@
     "name": "carbon/firstelement",
     "type": "neos-carbon",
     "description": "Get a boolean value returned if a content element is the first element in a ContentCollection or not",
-    "license": "MIT",
+    "license": "GPL-3.0",
     "keywords": [
         "flow",
         "neos",
